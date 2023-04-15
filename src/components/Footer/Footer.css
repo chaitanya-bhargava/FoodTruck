@@ -1,0 +1,162 @@
+footer {
+  display: flex;
+  align-items: center;
+  height: 25.13888888888889vw;      
+  background-color: #f8f8f8;        
+  position: relative;
+}
+.contactus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 14.652777777777779vw;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 14.305555555555555vw;
+}
+.more ul {
+  list-style: none;
+}
+.sociallinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 13.194444444444445vw;
+  margin-bottom: 9.027777777777777vw;
+}
+.sociallinks-heading {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3194444444444444vw;
+  line-height: 1.875vw;
+  letter-spacing: 0.03em;
+  color: #0e2368;
+}
+.socialicons {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7638888888888888vw;
+}
+.socialicons img{
+  margin-left: 2.5409722222222224vw;
+  width:1.458vw;
+}
+footer .logo {
+  width: 11.180555555555555vw;
+  margin-left: 7.152777777777778vw;
+}
+.contactus-heading {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 1.3085625vw;
+  line-height: 1.875vw;
+  letter-spacing: 0.03em;
+  color: #0e2368;
+}
+.contactus-subtext {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 1.0177708333333333vw;
+  line-height: 1.597222222222222vw;
+  color: #646874;
+  width: 15.069444444444443vw;
+  margin-top: 1.0416666666666665vw;
+}
+.more-heading {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 1.3085625vw;
+  line-height: 1.875vw;
+  letter-spacing: 0.03em;
+  color: #0e2368;
+}
+footer .more li {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 1.0416666666666665vw;
+  line-height: 1.875vw;
+  color: #646874;
+  margin-top: 0.9722222222222222vw;
+  width: 6.527777777777779vw;
+}
+.copywright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.0177708333333333vw;
+  line-height: 1.7361111111111112vw;
+  text-align: center;
+  color: #828b9c;
+  position: absolute;
+  bottom: 6.388888888888888vw;
+  right: 7.222222222222221vw;
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+    height: 162.13333333333333vw;     
+    flex-direction: column;
+    align-items:start;
+  }
+  .contactus{
+    margin-left:10.933333333333334vw; 
+    margin-top:12vw;
+    width:78.4vw;
+  }
+  .more{
+    margin-left: 12.266666666666666vw;
+    margin-top: 7.733333333333333vw;  
+  }
+  .sociallinks-heading{
+    display: none;
+  }
+  footer .logo {
+    width: 20vw;
+    margin:auto;
+    margin-top: 13.866666666666665vw;
+  }
+  .contactus-heading{
+    font-size: 4.2056000000000004vw;
+    line-height: 9.333333333333334vw;
+  }
+  .contactus-subtext{
+    font-size: 2.336448vw;
+    line-height: 3.2vw;
+    width:78.4vw;
+    margin-top: 3.04vw;
+  }
+  .more-heading{
+    font-size: 4.2056000000000004vw;
+    line-height: 9.333333333333334vw;
+  }
+  footer .more li{
+    font-size: 2.336448vw;
+    line-height: 9.333333333333334vw;
+    margin-top: 0;
+    width: 78.4vw;
+  }
+  .socialicons img{
+    width: 3.2vw;
+    margin-left: 5.866666666666666vw;
+  }
+  footer .insta{
+    margin-left: 0;
+  }
+  .sociallinks{
+    margin: auto;
+  }
+  .copywright{
+    font-size: 2.336448vw;
+    line-height: 8.533333333333333vw;
+    text-align: center;
+    position: absolute;
+    left:35.5vw;
+    bottom: 14vw;
+    width: 29.599999999999998vw;
+  }
+}

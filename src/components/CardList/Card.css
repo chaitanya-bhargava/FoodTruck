@@ -1,0 +1,67 @@
+.card{
+    border: 1.37039px solid rgba(147, 162, 211, 0.38);
+    border-radius: 1.4539583333333335vw;
+    padding:1.875vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.4236111111111112vw;
+  }
+  .card-heading{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.4583333333333333vw;
+    line-height: 1.875vw;
+    color: #0E2368;
+    margin-top: 2.4659722222222222vw;
+  }
+  .card img{
+    width:22.63vw;
+  }
+  .card-subtext{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.875vw;
+    letter-spacing: -0.02em;
+    color: #444957;
+    margin-top: 0.9722222222222222vw;
+    width: 20.48611111111111vw;
+  }
+  .card .custom-button{
+    margin-top: 2.3201388888888888vw;
+    width: 9.722222222222223vw;
+  }
+@media only screen and (max-width:600px) {
+  .card{
+    width: 72.26666666666667vw;
+    height: 129.06666666666666vw;
+    border: 0.876168px solid #373737;
+    border-radius: 7.139333333333334vw;
+    padding: 4.266666666666667vw;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 14.236vw;
+  }
+  .card img{
+    width: 54.400000000000006vw;
+    margin-top: 2.7vw;
+  }
+  .card-heading{
+    font-size: 4.266666666666667vw;
+    line-height: 9.333333333333334vw;
+    letter-spacing: 0.05em;
+    margin-top: 8.5vw;
+  }
+  .card-subtext{
+    font-size: 3.2vw;
+    line-height: 5.866666666666666vw;
+    letter-spacing: -0.01em;
+    width: 56.8vw;
+  }
+  .card .custom-button{
+    margin-top: 6.3201388888888888vw;
+    width: 23.722222222222223vw;
+    border-width: 2px;
+  }
+}

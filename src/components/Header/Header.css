@@ -1,0 +1,107 @@
+.headerimg {
+  width: 52.22vw;
+  position: absolute;        
+  right: 0vw;
+  top: -0.1388888888888889vw;
+}
+header {
+  height: 68.75vw;
+  position: relative;        
+}
+.headerlogo {
+  width: 7.43vw;
+  position: absolute;        
+  left: 6.94vw;
+  top: 2.91vw;
+  z-index: 1;
+}
+header .right .custom-button {
+  position: absolute;
+  right: 2.847vw;
+  top: 2.22vw;
+  z-index: 2;
+  padding: 0.208vw 0.799vw;
+  width: 8.472vw;
+  font-family: "Source Sans Pro";
+}
+.headertext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 6.94vw;
+}
+.header-heading {
+  color: #0e2368;
+  font-size: 4.305vw;
+  font-weight: 700;
+  width: 26.38888888888889vw;
+  line-height: 4.791666666666667vw;
+  margin-top: 15.76388888888889vw;
+  font-family: "Source Sans Pro";
+}
+.header-subtext {
+  margin-top: 1.8055555555555554vw;
+  color: #444957;
+  font-size: 1.1419930555555557vw;
+  font-weight: 400;
+  width: 24.305555555555554vw;
+  line-height: 1.875vw;
+  font-family: "Open Sans";
+}
+header .left .custom-button {
+  font-family: "Open Sans";
+  margin-top: 3.8194444444444446vw;
+  padding: 0.9722222222222222vw 2.361111111111111vw;
+  width: 13.194444444444445vw;
+  font-weight: 700;
+  font-size: 1.25vw;
+}
+@media only screen and (max-width: 600px) {
+  .headerimg {
+    width: 102.66666666666666vw;
+  }
+  header {
+    height: 215.46666666666664vw;
+  }
+  .headerlogo {
+    display: none;
+  }
+  .header-heading {
+    font-size: 10.133333333333333vw;
+    line-height: 12.266666666666666vw;
+    text-align: center;
+    margin-top: 130.4vw;
+    width: 64vw;
+  }
+  .headertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }
+  .header-subtext{
+    font-size: 2.933333333333333vw;
+    line-height: 4.8vw;
+    text-align: center;
+    width: 66.4vw;
+  }
+  header .left .custom-button {
+    font-size: 3.27104vw;
+    line-height: 8.533333333333333vw;
+    letter-spacing: 0.01em;
+    padding: 1.6vw 4vw;
+    width: 37.6vw;
+    margin-top:7.466666666666668vw;
+  }
+  header .right .custom-button {
+    position: absolute;
+    right: 5.066666666666666vw;
+    top: 4.8vw;
+    z-index: 2;
+    height: 7.266666666666666vw;
+    line-height: 6.666666666666667vw;
+    width: 22.6vw;
+    font-family: "Source Sans Pro";
+  }
+}

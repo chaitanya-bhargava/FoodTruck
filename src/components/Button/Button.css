@@ -1,0 +1,22 @@
+.custom-button {
+  border-radius: 2.43vw;
+  padding: 0.208vw 1.805vw;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 2.5vw;
+  width: 9.166666666666666vw;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .custom-button{
+    font-size: 2.933333333333333vw;
+    line-height: 6.666666666666667vw;
+    width: 25.6vw;
+    padding: 0.26666666666666666vw 3.4666666666666663vw;
+    border-radius: 12.43vw;
+  }
+}

@@ -1,0 +1,12 @@
+.cardlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2.8472222222222223vw 7.5vw 0vw 7.430555555555555vw;
+  }
+
+@media only screen and (max-width:600px){
+    .cardlist{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,56 @@
+.latestarticles-heading {
+  font-family: "Source Sans Pro";   
+  font-weight: 600;
+  font-size: 3.888888888888889vw;   
+  line-height: 2.9166666666666665vw;
+  letter-spacing: 0.04em;
+  color: #0e2368;
+  margin-top: 10.972222222222221vw; 
+  margin-left: 7.5vw;
+}
+.latestarticles {
+  height: 69.09722222222221vw;      
+}
+.page-select {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.444444444444445vw;
+}
+.pagetext {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 1.5277777777777777vw;
+  line-height: 1.875vw;
+  color: #424961;
+  padding:0.9722222222222222vw;
+}
+.page-select img{
+  width: 1.944vw;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .latestarticles-heading {
+    font-size: 7.466666666666668vw;   
+    line-height: 14.399999999999999vw;
+    margin-top: 26.666666666666668vw; 
+    margin-left: 0;
+  }
+  .latestarticles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 510.9333333333334vw;      
+  }
+  .page-select img{
+    width: 4.266666666666667vw;       
+  }
+  .pagetext{
+    font-size: 3.2vw;
+    padding:1.866666666666667vw;      
+  }
+  .page-select{
+    margin-top: 9.44vw;
+  }
+}
